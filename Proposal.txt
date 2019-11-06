@@ -1,0 +1,13 @@
+Bike Shop Ticket System 
+Chase Flackey 
+11/1/2019 
+
+Problem: As customers bring bicycles into the bike shop, they each have individual requests for work that needs to be done. These requests can easily be mismanaged or lost, and the shop is left with a bicycle that they are unsure of what needs to be done. This program will allow employees to input these requests and tie them to a unique customer ID which is generated from the customer’s phone number, making them easily searchable.  
+
+Primary Stakeholder: The primary user of this program will be the bike shop employees. The employees will benefit from this program because they will have a more efficient way to keep track of customer requests. The customers will receive better service in turn, increasing their satisfaction with the shop’s performance. 
+
+Graphical User Interface: The ticket system will have a primary interface which allows employees to select one of two options: create a new ticket or search existing ticket. If the user selects “Create New Ticket”, they will be prompted to fill out a work order form containing customer information and the requested work to be done. If the user selects “Search Existing Ticket”, they will be prompted to enter the customer’s phone number to bring up any work orders associated with that customer. If a matching work order is found, they will have the option to view this work order, edit it, or to delete/mark the task as finished. 
+
+Data: The ticket system will have to store ticket objects, which will contain an integer key used for locating the ticket as well as a variety of strings which represent the data associated with each ticket. Each ticket object will mimic a physical work order form, with various standard fields which employees can input information such as bike type, cost of work performed, work needing to be done, etc. This information will be stored as strings in a text file, and each object will be read in first using the customer’s phone number as a delimiter. After this, the string for each field will be read in order using newline delimiters. As new ticket objects are created, these will be stored in the text file, and will be removed from the text file as tickets are closed. 
+ 
+ 
