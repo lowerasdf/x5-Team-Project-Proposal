@@ -3,7 +3,7 @@ CS400 Fall 19 x-team 20
 
 Members:
  - Chase Flackey
- - Siddart Pillai
+ - Siddarth Pillai
  - Justin Zhao
  - Chenjie Zhu
  - Bloomest Chandra
