@@ -11,4 +11,4 @@ Members:
 Project Title: Ticket System for Bike Reparations
 
 Description:
-TODO
+A ticket system that can handle the customer's bike reparation inquiries.
